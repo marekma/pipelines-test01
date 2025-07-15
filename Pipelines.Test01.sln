@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{09B9F601-E8F1-41E3-9886-755EB3653154}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pipelines.Test01.Api", "api\Pipelines.Test01.Api\Pipelines.Test01.Api.csproj", "{5B57418C-1C11-4542-A5DD-FF44C16738B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pipelines.Test01.Api.Tests", "api\Pipelines.Test01.Api.Tests\Pipelines.Test01.Api.Tests.csproj", "{42AF0E0E-DD58-48E5-B2E4-964B6D6FA33C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B57418C-1C11-4542-A5DD-FF44C16738B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B57418C-1C11-4542-A5DD-FF44C16738B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B57418C-1C11-4542-A5DD-FF44C16738B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B57418C-1C11-4542-A5DD-FF44C16738B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42AF0E0E-DD58-48E5-B2E4-964B6D6FA33C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42AF0E0E-DD58-48E5-B2E4-964B6D6FA33C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42AF0E0E-DD58-48E5-B2E4-964B6D6FA33C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42AF0E0E-DD58-48E5-B2E4-964B6D6FA33C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B57418C-1C11-4542-A5DD-FF44C16738B4} = {09B9F601-E8F1-41E3-9886-755EB3653154}
+		{42AF0E0E-DD58-48E5-B2E4-964B6D6FA33C} = {09B9F601-E8F1-41E3-9886-755EB3653154}
+	EndGlobalSection
+EndGlobal
